@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://imuyip.github.io',
-	base: 'astro-blog-test',
+	base: '/astro-blog-test',
 	integrations: [mdx(), sitemap()],
 });
